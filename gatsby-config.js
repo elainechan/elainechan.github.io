@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'elainechan.github.io',
+    title: 'Elaine Chan',
     description: 'Software Engineering'
   },
   plugins: [

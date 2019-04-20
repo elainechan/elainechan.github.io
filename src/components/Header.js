@@ -10,7 +10,12 @@ const TitleAndDescription = ({data}) => {
       fontFamily: 'avenir'
     }}>
       <div>
-        <ul style={{ listStyleType: 'none' }}>
+        <ul style={{
+          listStyleType: 'none',
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'space-around'
+        }}>
           <li>
             <Link to='/'>Home</Link>
           </li>

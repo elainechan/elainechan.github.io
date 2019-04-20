@@ -12,8 +12,11 @@ export default function AboutPage(props) {
           alignItems: 'center',
           fontFamily: 'avenir'
       }}>
+        <h2>
+          About
+        </h2>
         <div>
-          I specialize in the rapid prototyping of applications. My interests include data engineering, data analysis, optimization algorithms, and user experience design.
+          I am a software engineer based in New York, specializing in the rapid prototyping of applications. My interests include data engineering, data analysis, optimization algorithms, and user experience design.
         </div>
         <div style={{
           display: 'flex',
