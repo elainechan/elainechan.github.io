@@ -16,10 +16,15 @@ const Layout = ({data}) => {
           {edges.map(edge => {
             const {frontmatter} = edge.node
             return (
-              <div key={frontmatter.path}>
+              <div 
+                key={frontmatter.path}
+                style={{
+                  textAlign: 'center'
+              }}>
                 <Link to={frontmatter.path}>
                 {frontmatter.title}
                 </Link>
+                <p>{frontmatter.excerpt}</p>
               </div>
             )
           })}
@@ -45,6 +50,7 @@ export const query = graphql`
             title
             path
             date
+            excerpt
           }
         }
       }

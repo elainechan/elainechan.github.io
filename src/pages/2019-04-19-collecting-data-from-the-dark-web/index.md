@@ -1,11 +1,11 @@
 ---
-path: '/first-post'
+path: '/collecting-data-from-the-dark-web'
 date: '2019-04-19'
 title: 'Collecting Data From the Dark Web'
-tags: ['this', 'that']
-excerpt: 'A preview of first post.'
+tags: ['cybersecurity', 'data engineering']
+excerpt: 'Cybersecurity is a broad and rich field that has spawned new professions such as threat intelligence, which seeks to prevent or mitigate damages caused by breaches. I looked into some of the techniques used to collect data for threat intelligence analysis.'
 ---
-In light of special counsel Robert Mueller's [report](https://www.nytimes.com/interactive/2019/04/18/us/politics/mueller-report-document.html) on a Russian campaign to sabotage the 2016 presidential election, I have looked into the topic of cybersecurity and how it may be prevented. Cybersecurity is a broad and rich field that has spawned new professions such as threat intelligence, which seeks to prevent or mitigate damages caused by breaches. I looked into some of the techniques used for collecting this type of data.
+In light of special counsel Robert Mueller's [report](https://www.nytimes.com/interactive/2019/04/18/us/politics/mueller-report-document.html) on a Russian campaign to sabotage the 2016 presidential election, I have looked into the topic of cybersecurity and how it may be prevented. Cybersecurity is a broad and rich field that has spawned new professions such as threat intelligence, which seeks to prevent or mitigate damages caused by breaches. I looked into some of the techniques used to collect data for threat intelligence analysis.
 
 One of the most common techniques for data collection is using a Web crawler to scrape content of underground discussion forums in the Dark Web, then analyzing the content to determine intents and probable threats. Here are several academic papers that present technical solutions with increasing sophistication.
 
