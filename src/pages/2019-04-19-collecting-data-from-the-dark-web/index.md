@@ -2,12 +2,12 @@
 path: '/collecting-data-from-the-dark-web'
 date: '2019-04-19'
 title: 'Collecting Data From the Dark Web'
-tags: ['cybersecurity', 'information retrieval']
-excerpt: 'Cybersecurity is a broad and rich field that has spawned new professions such as threat intelligence, which seeks to prevent or mitigate damages caused by breaches. I looked into some of the techniques used to collect data for threat intelligence analysis.'
+tags: ['threat intelligence', 'information retrieval', 'natural language processing']
+excerpt: 'Data collection techniques for threat intelligence analysis.'
 ---
-In light of special counsel Robert Mueller's [report](https://www.nytimes.com/interactive/2019/04/18/us/politics/mueller-report-document.html) on a Russian campaign to sabotage the 2016 presidential election, I have looked into the topic of cybersecurity. This is a broad and rich field that has spawned new professions such as threat intelligence, which seeks to prevent or mitigate damages caused by breaches. I looked into some of the techniques used to collect data for threat intelligence analysis.
+In light of special counsel Robert Mueller's [report](https://www.nytimes.com/interactive/2019/04/18/us/politics/mueller-report-document.html) on a Russian campaign to sabotage the 2016 presidential election, cybersecurity has moved into the spotlight. Cybersecurity is a broad and rich field that has spawned new professions such as threat intelligence, which seeks to prevent or mitigate damages caused by hacking or breaches. 
 
-One of the most common techniques for data collection is using a Web crawler to scrape content of underground discussion forums in the Dark Web, then analyzing the content to determine intents and probable threats. Here are several academic papers that present technical solutions for this information retrieval problem.
+Data collection is an important step in the threat intelligence cycle, and a common source of data is Dark Web discussion forums. This is an information retrieval problem that is similar to search engine indexing. A Web crawler is deployed to scrape content from a set of forums. The collected data is then consumed by sentiment analysis and/or natural language processing. The following is a summary of several research papers that present technical solutions for this problem.
 
 ## Building a Crawling Engine
 ### Surfacing Collaborated Networks in Dark Web to Find Illicit and Criminal Content ([link](https://ieeexplore.ieee.org/document/7745452))
