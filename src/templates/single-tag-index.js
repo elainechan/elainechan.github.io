@@ -8,7 +8,9 @@ const SingleTagTemplate = (props) => {
   return (
     <div style={{ fontFamily: 'avenir' }}>
       <div>
+        <h2>
         Posts about {`${tag}`}
+        </h2>
       </div>
         <div>
           <ul style={{ listStyleType: 'none' }}>
