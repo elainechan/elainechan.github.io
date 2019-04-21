@@ -1,7 +1,7 @@
 {
-  "name": "elainechan.github.io",
+  "name": "elainechan.nyc",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A blog built with GatsbyJS and React, deployed on Netlify.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

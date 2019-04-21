@@ -16,7 +16,7 @@ export default function AboutPage(props) {
           About
         </h2>
         <div>
-          I am a software engineer based in New York, specializing in the rapid prototyping of applications. My interests include data engineering, data analysis, optimization algorithms, and user experience design.
+          I am a software engineer based in New York, specializing in the rapid prototyping of applications.
         </div>
         <div style={{
           display: 'flex',
