@@ -16,7 +16,9 @@ export default function AboutPage(props) {
           About
         </h2>
         <div>
+          <p>
           I am a software engineer based in New York, specializing in the rapid prototyping of applications.
+          </p>
         </div>
         <div style={{
           display: 'flex',

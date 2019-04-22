@@ -1,22 +1,33 @@
 ---
-path: '/intelligence-requirements-collection-requirements'
+path: '/intelligence-cycle'
 date: '2019-04-22'
-title: 'Intelligence Requirements and Collection Requirements'
-tags: ['threat intelligence', 'intelligence collection']
-excerpt: 'A preview of third post.'
+title: 'The Intelligence Cycle'
+tags: ['threat intelligence']
+excerpt: 'An overview of the intelligence cycle.'
 ---
+### The Intelligence Cycle
+1. Requirements: develop intelligence requirements
+2. Collection: build a pipeline to acquire the data
+3. Processing: digest the data into consumable input for analysis
+4. Analysis: translate the data into actionable information
+5. Dissemination: deliver the finished intelligence to the right people
+6. Feedback: receive user comments on the product and make changes accordingly
+
 ## Intelligence Requirements
-- Primary intelligence requirements (PIR) and intelligence requirements (IR)
+Intelligence requirements are a set of guidelines for conducting the operations of the rest of the intelligence cycle.
+
 ### Steps
-1. Identify assets
-2. Identify adversaries/threat actors and their objectives
-3. Prioritize goals and target resources
+1. Identify and prioritize critical assets
+    - What are the assets that are critical to the survival of your business?
+    - Which one of those assets, should it be compromised, would kill your business first?
+2. Identify adversaries and their objectives
+    - Who had previously targeted your assets?
+    - Who had previously targeted similar businesses or similar assets?
+    - Adversaries are usually financially motivated, seeking personally identifiable information (PII), login credentials, etc. for monetization schemes.
+3. Narrow operational focus
+    - Be specific and concrete. For example: what types of social engineering tactics are most likely to result in a successful business email compromise (BEC) scam? What types of employee training could help prevent this?
 
 <img src='https://smallwarsjournal.com/sites/default/files/inline-images/kingimage1.jpg'/>
-
-### Intelligence Cycle
-- Requirement, Collection, Processing, Analysis & Production, Disemination
-- OODA loop
 
 
 ## Collections Requirements
@@ -24,6 +35,8 @@ Tactics, techniques, and procedures (TTP)
 - [etymology](http://ryanstillions.blogspot.com/2014/04/on-ttps.html)
 
 ## References
+- [The Cyber Threat Intelligence Cycle](https://www.flashpoint-intel.com/blog/the-cyber-threat-intelligence-cycle/)
+
 - [Three Things You Need for Effective Intelligence Requirements](https://www.flashpoint-intel.com/blog/three-things-you-need-for-effective-intelligence-requirements/)
 
 - [Developing Requirements for Your Intelligence Section](https://www.optiv.com/blog/developing-requirements-for-your-intelligence-section)
@@ -41,3 +54,7 @@ Tactics, techniques, and procedures (TTP)
 - [The Importance of Priority Intelligence Requirements to the Army Service Component Command (ASCC) and the Intelligence Apparatus](https://smallwarsjournal.com/jrnl/art/importance-priority-intelligence-requirements-army-service-component-command-ascc-and)
 
 - [Oversight of Intelligence Operations Begins with Collections Management](https://www.flashpoint-intel.com/blog/oversight-of-intelligence-operations-begins-with-collections-management/)
+
+- [The Threat Intelligence Handbook](https://cyber-edge.com/wp-content/uploads/2018/11/Recorded-Future-eBook.pdf)
+
+-[NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
