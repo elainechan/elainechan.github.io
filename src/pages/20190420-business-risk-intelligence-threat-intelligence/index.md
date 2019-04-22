@@ -9,7 +9,11 @@ Business risk intelligence(BRI), as a discipline, is a superset of threat intell
 
 Cybersecurity risks can no longer be confined to the IT department because it often involves legal implications (in the case of a customer data breach) and threatens business continuity as well as reputation. As opposed to approaching cybersecurity as an incident response problem, a new approach is to treat cybersecurity threats as a long-term risk to be managed continuously. Business risk intelligence was born from this development.
 
-There is not a whole lot of learning resources available for BRI, perhaps because of its youth as a discipline; the available literature mostly consists of whitepapers and blog posts written by industry practitioners.
+At first glance, BRI can be seen as an overlap between enterprise risk management (ERM), cybersecurity, and intelligence:
+
+<img src='https://raw.githubusercontent.com/elainechan/elainechan.github.io/master/static/bri-venn.png' />
+
+There is not a whole lot of learning resources available for BRI, perhaps because of its youth as a discipline; the available literature mostly consists of whitepapers and blog posts written by industry practitioners. That said, a wide range of literature is available for ERM, cybersecurity, and intelligence.
 
 corporate espionage
 employee retaliation
