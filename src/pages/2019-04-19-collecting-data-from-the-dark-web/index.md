@@ -32,6 +32,7 @@ Scraping even one Website takes a handful of seconds; the researchers in this pa
 
 ## Optimizing a Crawling Engine
 ### Uncovering Tor: An Examination of the Network Structure ([link](https://www.hindawi.com/journals/scn/2018/4231326/))
+This network analysis model provides insights into how to optimize the scraping engine for maxim efficiency: find the closest matches to targeted keywords with the least work done.
 
 #### Process
 1. Identify 1,220 unique dark web websites and 150 seed websites. Find Tor domains through a Google search of the [Hidden Wiki](https://en.wikipedia.org/wiki/The_Hidden_Wiki), with additional URLs found on Reddit and other regular Internet sites.
@@ -48,6 +49,7 @@ Scraping even one Website takes a handful of seconds; the researchers in this pa
 
 ## Targeted Crawling Based on Labels and Categories
 ### Sentiment Crawling: Extremist Content Collection Through a Sentiment Analysis Guided Web-Crawler ([link](https://ieeexplore.ieee.org/document/7403671))
+This crawler that incorporates sentiment analysis and natural language processing in its crawling provides additional ideas on optimizing match accuracy, presumably at the cost of time efficiency.
 
 #### Techniques
 1. Web Crawler

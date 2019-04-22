@@ -1,14 +1,16 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import Header from '../components/Header'
 
 export default function BlogpostTemplate(props) {
-
+  console.log(props)
   const { markdownRemark } = props.data
   const { frontmatter, html } = markdownRemark
-  const { next, prev } = props.pageContext
+  const { next, prev, posts } = props.pageContext
 
   return (
     <div className='blogpost-container'>
+      <Header />
       <div 
         className='blogpost'
         style={{
@@ -20,6 +22,27 @@ export default function BlogpostTemplate(props) {
       >
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
+        <div>
+          <ul style={{ 
+            listStyleType: 'none',
+            display: 'flex',
+            flexDirection: 'row',
+          }}>
+          <b>
+            Tags:
+          </b>
+            {frontmatter.tags.map((tag, index) => { 
+              return (
+                <li 
+                  key={index}
+                  style={{ marginLeft: '0.5rem'}}
+                >
+                  <Link to={`/tags/${tag}`}>{tag}</Link>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
         <div
           className='blogpost-content'
           dangerouslySetInnerHTML={{__html: html}}
@@ -67,6 +90,7 @@ export const pageQuery = graphql`
         title
         date
         path
+        tags
       }
     }
   }

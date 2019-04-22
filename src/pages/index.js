@@ -7,27 +7,34 @@ const Layout = ({data}) => {
   return (
     <div>
       <Header />
-        <div style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          fontFamily: 'avenir'
+        <div 
+          className='homepage'
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            fontFamily: 'avenir'
         }}>
+        <div>
           {edges.map(edge => {
             const {frontmatter} = edge.node
             return (
               <div 
                 key={frontmatter.path}
                 style={{
-                  textAlign: 'center'
+                  marginTop: '1rem',
+                  marginBottom: '2rem'
               }}>
+
                 <Link to={frontmatter.path}>
-                {frontmatter.title}
+                  <b>{frontmatter.title}</b>
                 </Link>
                 <p>{frontmatter.excerpt}</p>
               </div>
             )
           })}
+        </div>
+
           <div style={{ marginTop: '1rem' }}>
             <Link to='/tags'>
               Browse by Tag
