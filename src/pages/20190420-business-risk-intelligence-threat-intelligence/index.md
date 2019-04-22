@@ -19,7 +19,7 @@ Perhaps to oversimplify things, BRI can be seen as an overlap between enterprise
     alt='BRI Venn diagram'/>
 <style>
 img {
-    maxwidth: 100%;
+    max-width: 100%;
     height: auto;
 }
 </style>
