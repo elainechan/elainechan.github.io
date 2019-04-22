@@ -34,7 +34,16 @@ Intelligence requirements (IRs) are a set of guidelines for conducting the opera
     - For example: what types of social engineering tactics are most likely to result in a successful business email compromise (BEC) scam? What types of employee training could help prevent this?
 
 ## Priority Intelligence Requirements
-<img src='https://smallwarsjournal.com/sites/default/files/inline-images/kingimage1.jpg'/>
+<img 
+    src='https://smallwarsjournal.com/sites/default/files/inline-images/kingimage1.jpg'
+    alt='Priority intelligence requirements flow diagram'
+    />
+<style>
+img {
+    maxwidth: 100%;
+    height: auto;
+}
+</style>
 
 Priority intelligence requirements (PIRs) are intelligence requirements which are critical to accomplishing the mission. Basically, they are a handful of IRs that are more important than all other IRs: the manager approves a prioritized list of IRs and designates some of them as PIRs.
 

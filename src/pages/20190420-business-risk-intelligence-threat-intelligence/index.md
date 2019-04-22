@@ -14,14 +14,24 @@ Cybersecurity risks can no longer be confined to the IT department because they 
 
 Perhaps to oversimplify things, BRI can be seen as an overlap between enterprise risk management (ERM), cybersecurity, and intelligence:
 
-<img src='https://raw.githubusercontent.com/elainechan/elainechan.github.io/master/static/bri-venn.png' />
+<img 
+    src='https://raw.githubusercontent.com/elainechan/elainechan.github.io/master/static/bri-venn.png' 
+    alt='BRI Venn diagram'/>
+<style>
+img {
+    maxwidth: 100%;
+    height: auto;
+}
+</style>
 
 There is not a whole lot of learning resources available for BRI, perhaps because of its youth as a discipline; the available literature mostly consists of whitepapers and blog posts written by industry practitioners. That said, a wide range of literature is available for ERM, cybersecurity, and intelligence.
 
 ## Threat Intelligence
 To oversimplify things again, threat intelligence covers a narrower range of risks than BRI:
 
-<img src='https://raw.githubusercontent.com/elainechan/elainechan.github.io/master/static/ti-venn.png' />
+<img 
+    src='https://raw.githubusercontent.com/elainechan/elainechan.github.io/master/static/ti-venn.png' 
+    alt='Threat intelligence Venn diagram'/>
 
 Also an offshoot of cybersecurity, threat intelligence is more mature than BRI as a discipline. Plenty of learning material is available, including a [handbook](https://cyber-edge.com/wp-content/uploads/2018/11/Recorded-Future-eBook.pdf) written by a group of industry practitioners.
 
