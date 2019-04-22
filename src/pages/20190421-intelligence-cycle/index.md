@@ -40,7 +40,7 @@ Intelligence requirements (IRs) are a set of guidelines for conducting the opera
     />
 <style>
 img {
-    maxwidth: 100%;
+    max-width: 100%;
     height: auto;
 }
 </style>
