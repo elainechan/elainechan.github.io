@@ -36,10 +36,10 @@ Intelligence requirements (IRs) are a set of guidelines for conducting the opera
 ## Priority Intelligence Requirements
 <img src='https://smallwarsjournal.com/sites/default/files/inline-images/kingimage1.jpg'/>
 
-Priority intelligence requirements (PIRs) are intelligence requirements which are critical to accomplishing the mission. Basically, they are a handful of IRs that are more important than all other IRs: the manager approves a prioritized list of IRs and designates some of them as PIR.
+Priority intelligence requirements (PIRs) are intelligence requirements which are critical to accomplishing the mission. Basically, they are a handful of IRs that are more important than all other IRs: the manager approves a prioritized list of IRs and designates some of them as PIRs.
 
 ## Collection Requirements
-Collection requirements informs data collection operations in the intelligence cycle. The first part is to identify, prioritize, and document observables and inputs that are needed to fullfil IRs. The second part is to specify the technical implementations needed to fulfill collection requirements.
+Collection requirements inform data collection operations in the intelligence cycle. The first part is to identify, prioritize, and document observables and inputs that are needed to fullfil IRs. The second part is to specify the technical implementations needed to fulfill collection requirements.
 
 ## References
 - [On TTPs](http://ryanstillions.blogspot.com/2014/04/on-ttps.html)
