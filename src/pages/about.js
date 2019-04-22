@@ -17,7 +17,7 @@ export default function AboutPage(props) {
         </h2>
         <div>
           <p>
-          I am a software engineer based in New York, specializing in the rapid prototyping of applications.
+          Software engineer based in New York.
           </p>
         </div>
         <div style={{

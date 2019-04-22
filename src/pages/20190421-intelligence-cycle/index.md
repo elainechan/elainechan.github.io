@@ -1,6 +1,6 @@
 ---
 path: '/intelligence-cycle'
-date: '2019-04-22'
+date: '2019-04-21'
 title: 'The Intelligence Cycle'
 tags: ['threat intelligence']
 excerpt: 'An overview of the intelligence cycle.'
@@ -57,4 +57,4 @@ Tactics, techniques, and procedures (TTP)
 
 - [The Threat Intelligence Handbook](https://cyber-edge.com/wp-content/uploads/2018/11/Recorded-Future-eBook.pdf)
 
--[NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
