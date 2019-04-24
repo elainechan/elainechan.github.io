@@ -1,21 +1,21 @@
 ---
-path: '/intelligence-cycle'
+path: '/cybersecurity-threat-intelligence-cycle'
 date: '2019-04-21'
-title: 'The Intelligence Cycle'
-tags: ['threat intelligence']
+title: 'The Cybersecurity Threat Intelligence Cycle'
+tags: ['cybersecurity','threat intelligence']
 excerpt: 'An overview of the intelligence cycle.'
 ---
-This is a summary of what I learned about the intelligence cycle through a Google search.
+This is a summary of what I learned about the cybersecurity threat intelligence cycle through a Google search.
 
-### The Intelligence Cycle
-The following are the six steps in an intelligence cycle. Each step is a seprate function in the sense that the objectives are different for each stage, although the steps do not necessarily have to occur discretely or chronologically in the order specified.
+### The Cybersecurity Threat Intelligence Cycle
+An intelligence cycle has five or six steps, depending who you talk to. Each step is a seprate function in the sense that the objectives are different for each stage, although the steps do not necessarily have to occur discretely or chronologically in the order specified.
 
-1. Requirements: develop intelligence requirements
-2. Collection: build a pipeline to acquire the data
-3. Processing: digest the data into consumable input for analysis
-4. Analysis: translate the data into actionable information
-5. Dissemination: deliver the finished intelligence to the right people
-6. Feedback: receive user comments on the product and make changes accordingly
+1. _Requirements_: develop intelligence requirements
+2. _Collection_: build a pipeline to acquire the data
+3. _Processing_: digest the data into consumable input for analysis
+4. _Analysis_: translate the data into actionable information
+5. _Dissemination_: deliver the finished intelligence to the right people
+6. _Feedback_: receive user comments on the product and make changes accordingly. In a 5-step cycle, this step is combined with _Dissemination_.
 
 ## Intelligence Requirements
 Intelligence requirements (IRs) are a set of guidelines for conducting the operations of the rest of the intelligence cycle.
@@ -34,6 +34,8 @@ Intelligence requirements (IRs) are a set of guidelines for conducting the opera
     - For example: what types of social engineering tactics are most likely to result in a successful business email compromise (BEC) scam? What types of employee training could help prevent this?
 
 ## Priority Intelligence Requirements
+Priority intelligence requirements (PIRs) are intelligence requirements which are critical to accomplishing the mission. Basically, they are a handful of IRs that are more important than all other IRs: the manager approves a prioritized list of IRs and designates some of them as PIRs.
+
 <img 
     src='https://smallwarsjournal.com/sites/default/files/inline-images/kingimage1.jpg'
     alt='Priority intelligence requirements flow diagram'
@@ -45,10 +47,8 @@ img {
 }
 </style>
 
-Priority intelligence requirements (PIRs) are intelligence requirements which are critical to accomplishing the mission. Basically, they are a handful of IRs that are more important than all other IRs: the manager approves a prioritized list of IRs and designates some of them as PIRs.
-
 ## Collection Requirements
-Collection requirements inform data collection operations in the intelligence cycle. The first part is to identify, prioritize, and document observables and inputs that are needed to fullfil IRs. The second part is to specify the technical implementations needed to fulfill collection requirements.
+Collection requirements inform data collection operations in the intelligence cycle. The first part is to identify, prioritize, and document observables and inputs that are needed to fullfil IRs. The second part is to specify the technical implementations needed to fulfill collection requirements. This [blog post](https://www.flashpoint-intel.com/blog/oversight-of-intelligence-operations-begins-with-collections-management/) has a good example of developing collection requirements.
 
 ## References
 - [On TTPs](http://ryanstillions.blogspot.com/2014/04/on-ttps.html)
