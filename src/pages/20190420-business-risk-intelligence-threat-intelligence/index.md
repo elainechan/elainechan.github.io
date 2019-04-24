@@ -2,7 +2,7 @@
 path: '/business-risk-intelligence-cybersecurity-threat-intelligence'
 date: '2019-04-20'
 title: 'Business Risk Intelligence and Cybersecurity Threat Intelligence'
-tags: ['cybersecurity', 'business risk intelligence', 'threat intelligence']
+tags: ['cybersecurity', 'business risk intelligence', 'threat intelligence', 'google it']
 excerpt: 'An overview of business risk intelligence and threat intelligence.'
 ---
 This is a summary of what I learned about business risk intelligence (BRI) and cybersecurity threat intelligence (CTI) through a Google search.
