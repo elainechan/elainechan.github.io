@@ -3,7 +3,7 @@ path: '/cybersecurity-threat-intelligence-cycle'
 date: '2019-04-21'
 title: 'The Cybersecurity Threat Intelligence Cycle'
 tags: ['cybersecurity','threat intelligence']
-excerpt: 'An overview of the intelligence cycle.'
+excerpt: 'An overview of the cybersecurity threat intelligence cycle.'
 ---
 This is a summary of what I learned about the cybersecurity threat intelligence cycle through a Google search.
 
