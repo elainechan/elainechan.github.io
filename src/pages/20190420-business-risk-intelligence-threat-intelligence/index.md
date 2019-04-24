@@ -1,14 +1,14 @@
 ---
-path: '/business-risk-intelligence-threat-intelligence'
+path: '/business-risk-intelligence-cybersecurity-threat-intelligence'
 date: '2019-04-20'
-title: 'Business Risk Intelligence and Threat Intelligence'
+title: 'Business Risk Intelligence and Cybersecurity Threat Intelligence'
 tags: ['cybersecurity', 'business risk intelligence', 'threat intelligence']
 excerpt: 'An overview of business risk intelligence and threat intelligence.'
 ---
-This is a summary of what I learned about business risk intelligence (BRI) and threat intelligence through a Google search.
+This is a summary of what I learned about business risk intelligence (BRI) and cybersecurity threat intelligence (CTI) through a Google search.
 
 ## Business Risk Intelligence
-BRI, as a discipline, can be seen as a superset of threat intelligence. In addition to the cybersecurity issues addressed by threat intelligence, BRI also addresses physical threats, insider threats, and fraud.
+BRI, as a discipline, can be seen as a superset of cybersecurity threat intelligence. In addition to the cybersecurity issues addressed by threat intelligence, BRI also addresses physical threats, insider threats, and fraud.
 
 Cybersecurity risks can no longer be confined to the IT department because they often involve legal implications (e.g. class action suits from customer data breaches) and threatens business continuity as well as reputation. As opposed to approaching cybersecurity as an incident-detection-and-response problem, a new approach is to treat cybersecurity threats as a long-term risk to be managed continuously. Business risk intelligence was born from this development.
 
@@ -26,14 +26,14 @@ img {
 
 There is not a whole lot of learning resources available for BRI, perhaps because of its youth as a discipline; the available literature mostly consists of whitepapers and blog posts written by industry practitioners. That said, a wide range of literature is available for ERM, cybersecurity, and intelligence.
 
-## Threat Intelligence
-To oversimplify things again, threat intelligence covers a narrower range of risks than BRI:
+## Cybersecurity Threat Intelligence
+To oversimplify things again, cybersecurity threat intelligence covers a narrower range of risks than BRI:
 
 <img 
     src='https://raw.githubusercontent.com/elainechan/elainechan.github.io/master/static/ti-venn.png' 
     alt='Threat intelligence Venn diagram'/>
 
-Also an offshoot of cybersecurity, threat intelligence is more mature than BRI as a discipline. Plenty of learning material is available, including a [handbook](https://cyber-edge.com/wp-content/uploads/2018/11/Recorded-Future-eBook.pdf) written by a group of industry practitioners.
+"Cybersecurity threat intelligence" is a mouthful, and people often refer to it as "threat intelligence" or "CTI." Also an offshoot of cybersecurity, threat intelligence is more mature than BRI as a discipline. Plenty of learning material is available, including a [handbook](https://cyber-edge.com/wp-content/uploads/2018/11/Recorded-Future-eBook.pdf) written by a group of industry practitioners.
 
 ## References
 - [You Have BRI Questions? We Have Answers](https://www.flashpoint-intel.com/blog/you-have-bri-questions-we-have-answers/)
