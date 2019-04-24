@@ -2,13 +2,13 @@
 path: '/collecting-data-from-the-dark-web'
 date: '2019-04-19'
 title: 'Collecting Data From the Dark Web'
-tags: ['threat intelligence', 'information retrieval', 'natural language processing']
+tags: ['cybersecurity', 'threat intelligence', 'information retrieval', 'natural language processing']
 excerpt: 'Data collection techniques for threat intelligence analysis.'
 ---
 In light of special counsel Robert Mueller's [report](https://www.nytimes.com/interactive/2019/04/18/us/politics/mueller-report-document.html) on a Russian campaign to sabotage the 2016 presidential election, cybersecurity has moved into the spotlight. Cybersecurity is a broad and rich field that has spawned professions such as threat intelligence, a cross-functional discipline that encompasses cybersecurity and intelligence. 
 
 ## Data Collection for Threat Intelligence
-Data collection is an important step in the threat intelligence cycle, and a common source of data is the Dark Web. Threat actors often use discussion forums on the Dark Web to conduct business, develop new exploits, and discuss tradecraft; vulnerabilities are often disclosed on the Dark Web [before](https://www.recordedfuture.com/vulnerability-disclosure-delay/) they reach the [National Vulberabilities Database](https://nvd.nist.gov/). Sometimes, threat actors also share code on forums, paste sites, or repositories. A list of collection sources may include:
+Data collection is an important step in the threat intelligence cycle, and a common source of data is the Dark Web, sometimes referred to as 'the [armpit](https://securityconversations.fireside.fm/josh-lefkowitz-flashpoint) of the Internet.' Threat actors often use discussion forums on the Dark Web to conduct business, develop new exploits, and discuss tradecraft; vulnerabilities are often disclosed on the Dark Web [before](https://www.recordedfuture.com/vulnerability-disclosure-delay/) they reach the [National Vulberabilities Database](https://nvd.nist.gov/). Sometimes, threat actors also share code on forums, paste sites, or repositories. A list of collection sources may include:
 
 - Private or invite-only forums
 - Chat services platforms
@@ -17,7 +17,17 @@ Data collection is an important step in the threat intelligence cycle, and a com
 - Paste sites
 - Social media sites
 
+## Data Is Not Intelligence
+_Data_ [does not equal](https://www.flashpoint-intel.com/blog/bri/lesson-1-data-is-not-intelligence/) _intelligence_; _intelligence_ collection is a combaination of manual and automated operations, while _data_ collection can be automated for the most part. For instance, an analyst with subject matter expertise (e.g. a Russian speaker who knows the ins and outs of darknet markets) may infiltrate an invite-only discussion forum in the Dark Web. Once access is gained, software engineers can perform _data_ collection automatically at scale by implementing code.
+
 Collecting contents of discussion forums at scale is an information retrieval problem similar to search engine indexing. A Web crawler is deployed to scrape content from a set of forums. The collected data is then consumed by sentiment analysis and/or natural language processing. The following is a summary of several research papers that present technical solutions for this problem.
+
+## General Concepts
+1. _Databases_: store data so that an application can find it again later.
+2. _Caches_: remember the result of an expensive operation to speed up reads.
+3. _Search indexes_: allow users to search data by keyword or filter it in various ways.
+4. _Stream processing_: send a message to another process to be handled asynchronously.
+5. _Batch processing_: periodically crunch a large amount of accumulated data.
 
 ## Building a Crawling Engine
 ### Surfacing Collaborated Networks in Dark Web to Find Illicit and Criminal Content ([link](https://ieeexplore.ieee.org/document/7745452))
@@ -80,6 +90,7 @@ This crawler that incorporates sentiment analysis and natural language processin
 4. Once generated, automatically integrate decision trees back into web-crawler in real time.
 
 ## References
+- [Designing Data-Intensive Applications](https://learning.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 - [Beyond Feeds: A Deep Dive Into Threat Intelligence Sources](https://www.recordedfuture.com/threat-intelligence-sources/)
 
 - [Going Deep and Dark: Mining Threat Intelligence From the Hidden Web](https://www.recordedfuture.com/dark-web-threat-intelligence/)
@@ -89,3 +100,5 @@ This crawler that incorporates sentiment analysis and natural language processin
 - [Asking the Right Questions About Collection Strategies](https://www.flashpoint-intel.com/blog/asking-the-right-questions-about-collection-strategies/)
 
 - [How You Can Use the Dark Web for Threat Intelligence](https://go.recordedfuture.com/dark-web)
+
+- [Lesson 1: Data is Not Intelligence](https://www.flashpoint-intel.com/blog/bri/lesson-1-data-is-not-intelligence/)
