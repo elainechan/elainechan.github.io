@@ -18,7 +18,7 @@ An intelligence cycle has five or six steps, depending who you talk to. Each ste
 6. _Feedback_: receive user comments on the product and make changes accordingly. In a 5-step cycle, this step is combined with _Dissemination_.
 
 ## Intelligence Requirements
-Intelligence requirements (IRs) are a set of guidelines for conducting the operations of the rest of the intelligence cycle.
+Intelligence requirements (IRs) are a set of guidelines for conducting the operations of the rest of the intelligence cycle. Like many terms in cybersecurity, intelligence requirements is a term borrowed from the vocabulary of the military and the intelligence community. This [article](https://www.cia.gov/library/center-for-the-study-of-intelligence/kent-csi/vol4no4/html/v04i4a03p_0001.htm) in the CIA library is a pretty interesting overview of the concept of intelligence requirements, if you are interested in its history. 
 
 ### Steps
 1. Identify and prioritize critical assets
@@ -48,9 +48,11 @@ img {
 </style>
 
 ## Collection Requirements
-Collection requirements inform data collection operations in the intelligence cycle. The first part is to identify, prioritize, and document observables and inputs that are needed to fullfil IRs. The second part is to specify the technical implementations needed to fulfill collection requirements. This [blog post](https://www.flashpoint-intel.com/blog/oversight-of-intelligence-operations-begins-with-collections-management/) has a good example of developing collection requirements.
+Collection requirements can be seen as the concrete implementation of IRs using specified methodologies that inform data collection operations in the intelligence cycle. The first part is to identify, prioritize, and document observables and inputs that are needed to fullfil IRs. The second part is to specify the technical implementations needed to fulfill collection requirements. This [blog post](https://www.flashpoint-intel.com/blog/oversight-of-intelligence-operations-begins-with-collections-management/) has a good example of developing collection requirements.
 
 ## References
+- [](https://www.cia.gov/library/center-for-the-study-of-intelligence/kent-csi/vol4no4/html/v04i4a03p_0001.htm)
+
 - [On TTPs](http://ryanstillions.blogspot.com/2014/04/on-ttps.html)
 
 - [The Cyber Threat Intelligence Cycle](https://www.flashpoint-intel.com/blog/the-cyber-threat-intelligence-cycle/)
