@@ -10,12 +10,14 @@ This is a summary of what I learned about the cybersecurity threat intelligence 
 ### The Cybersecurity Threat Intelligence Cycle
 An intelligence cycle has five or six steps, depending who you talk to. Each step is a seprate function in the sense that the objectives are different for each stage, although the steps do not necessarily have to occur discretely or chronologically in the order specified.
 
-1. _Requirements_: develop intelligence requirements
+1. _Requirements_: make a plan based on knowledge of risks and attack vectors
 2. _Collection_: build a pipeline to acquire the data
-3. _Processing_: digest the data into consumable input for analysis
-4. _Analysis_: translate the data into actionable information
+3. _Processing_: normalize and digest the data into consumable input for analysis
+4. _Analysis_: translate the data into actionable information and construct a meaningful picture.
 5. _Dissemination_: deliver the finished intelligence to the right people
 6. _Feedback_: receive user comments on the product and make changes accordingly. In a 5-step cycle, this step is combined with _Dissemination_.
+
+Here is a [video exceprt](https://youtu.be/1UK99bk7i3o?t=2006) containing a slide that explains the intelligence cycle pretty well.
 
 ## Intelligence Requirements
 Intelligence requirements (IRs) are a set of guidelines for conducting the operations of the rest of the intelligence cycle. Like many terms in cybersecurity, intelligence requirements is a term borrowed from the vocabulary of the military and the intelligence community.
