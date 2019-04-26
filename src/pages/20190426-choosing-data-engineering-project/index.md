@@ -9,26 +9,35 @@ Wanna put Kafka and Airflow on your resume but no idea what to do with the actua
 
 ## Data Engineering Project Approach
 A _Hacker News_ user proposes a sensible [approach](https://news.ycombinator.com/item?id=17781990):
-> It doesn't really matter what you tackle, but I personally like ETLing either data gather from web crawling a single site[0] or push in a weekly gathered wikipedia dump. You'll learn many of the foundational reasons for all the tools the industry uses, which will make it very easy for you to get up to speed on them and to make the right choices about when to introduce them. I personally tend to favour tools that have an API or CLI so I can coordinate tasks without needing to click around, but many others like a giant GUI so they can see data flows graphically. Most good tools have at least some measure of both. [0] Use something like Scrapy for python (or Mechanize for ruby) with CSS selectors and use the extension Inspector Gadget to quickly generate CSS selectors.
+<blockquote style='color: gray'>
+It doesn't really matter what you tackle, but I personally like ETLing either data gather from web crawling a single site[0] or push in a weekly gathered wikipedia dump. You'll learn many of the foundational reasons for all the tools the industry uses, which will make it very easy for you to get up to speed on them and to make the right choices about when to introduce them. I personally tend to favour tools that have an API or CLI so I can coordinate tasks without needing to click around, but many others like a giant GUI so they can see data flows graphically. Most good tools have at least some measure of both. [0] Use something like Scrapy for python (or Mechanize for ruby) with CSS selectors and use the extension Inspector Gadget to quickly generate CSS selectors.
+</blockquote>
 
 Another _Hacker News_ user tops it up with actual tool [suggestions](https://news.ycombinator.com/item?id=17782668):
-
+<blockquote style='color: gray'>
 1. Learn to do as much in plain Python as possible, focus on lazy evaluation (itertools, yielding, ...), you'll be able to process gigabytes with a tiny memory footprint, deployment will be a breeze etc.
+<br>
+<br>
 2. Get to know some of the basic Python data processing/science packages like pandas, numpy, scipy etc.
+<br>
+<br>
 3. Get used to writing short shell scripts - they probably won't be a part of your pipeline, but data engineering, especially development, involves a lot of data prep that coreutils will help you with. Throw in a bit of jq and you'll handle a lot of prep work.
+<br>
+<br>
 4. Only once you've gotten used to the above, look at Dask, PySpark, Airflow etc. It really depends on your use cases, but chances are you won't have to touch these technologies at all.
-5. Bottom line - wait with the heavyweight tools, they might be needlessly powerful. Also, work closely with DevOps, because the deployment side of things will help you understand consequences of your actions.
+
+Bottom line - wait with the heavyweight tools, they might be needlessly powerful. Also, work closely with DevOps, because the deployment side of things will help you understand consequences of your actions.
+</blockquote>
 
 ## Course Progression
 Based on the second _Hacker News_ user's comments, a course can be derived:
 
-1. _Manipulation_: 
-    - Lazy evaluation: `itertools`, `yield`
-    - Functional programming: `map`, `reduce`, `filter`
-3. _Collection_: Scrapy, BeautifulSoup
-4. _Consumption_: Pandas, Numpy, Scipy
-5. _Preparation_: shell scripting, jq
-6. _Instrumentation_: Dask, PySpark, Airflow, Luigi
+1. _Manipulation_: lazy evaluation (`itertools`, `yield`) and functional programming (`map`, `reduce`, `filter`)
+2. _Collection_: Scrapy, BeautifulSoup
+3. _Consumption_: Pandas, NumPy, SciPy
+4. _Preparation_: shell scripting, jq
+5. _Scaling_: Dask, PySpark
+6. _Instrumentation_: Airflow, Luigi
 
 ## References
 ### Choosing Project
