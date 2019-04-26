@@ -49,7 +49,10 @@ Based on the above, a course can be derived:
 
 - [A Typical Data Engineering Project — Sharing From Netflix Data Engineering Team](https://medium.com/hasbrain/a-typical-data-engineering-project-sharing-from-netflix-data-engineering-team-cc27878fce55)
 
-### Choosing ETL Tools
+### Choosing Tools
+- [Airbnb Airflow vs Apache Nifi [closed]](https://stackoverflow.com/questions/39399065/airbnb-airflow-vs-apache-nifi)
+
+- [“Large data” work flows using pandas](https://stackoverflow.com/questions/14262433/large-data-work-flows-using-pandas?rq=1)
 
 - [Data pipelines, Luigi, Airflow: everything you need to know](https://towardsdatascience.com/data-pipelines-luigi-airflow-everything-you-need-to-know-18dc741449b7)
 
