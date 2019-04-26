@@ -70,3 +70,10 @@ Based on the above, a course can be derived:
 - [Analytics Vidhya: Comprehensive List of Resources](https://www.analyticsvidhya.com/blog/2018/11/data-engineer-comprehensive-list-resources-get-started/)
 
 - [Data Engineering Resources](https://diogoalexandrefranco.github.io/data-engineering-resources/)
+
+### Books
+- [Designing Data-Intensive Applications](https://learning.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
+
+- [The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition](https://learning.oreilly.com/library/view/the-data-warehouse/9781118530801/)
+
+- [High Performance Browser Networking](https://hpbn.co/)
