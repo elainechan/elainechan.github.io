@@ -30,7 +30,7 @@ Bottom line - wait with the heavyweight tools, they might be needlessly powerful
 </blockquote>
 
 ## Course Progression
-Based on the second _Hacker News_ user's comments, a course can be derived:
+Based on the above, a course can be derived:
 
 1. _Manipulation_: Python lazy evaluation (`itertools`, `yield`) and functional programming (`map`, `reduce`, `filter`)
 2. _Collection_: Scrapy, BeautifulSoup
