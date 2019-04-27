@@ -5,7 +5,7 @@ title: 'Choosing a Data Engineering Project'
 tags: ['data engineering']
 excerpt: 'Strategies for choosing a project to learn data engineering.'
 ---
-Wanna put Kafka and Airflow on your resume but no idea what to do with the actual technologies? Let's find a way.
+Wanna put Kafka and Airflow on your resume but don't know where to start? Let's find a way.
 
 ## Data Engineering Project Approach
 A _Hacker News_ user proposes a sensible [approach](https://news.ycombinator.com/item?id=17781990):
