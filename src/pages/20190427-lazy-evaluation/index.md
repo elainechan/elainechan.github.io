@@ -1,5 +1,5 @@
 ---
-path: '/lazy-evaluation'
+path: '/lazy-evaluation-python'
 date: '2019-04-27'
 title: 'Lazy Evaluation in Python'
 tags: ['python', 'lazy evaluation', 'generator']
@@ -34,7 +34,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-You can `yield` iteratively.
+Python raises a `StopIteration` exception when there is nothing left to yield. You can also `yield` iteratively.
 
 ```python
 from itertools import islice
