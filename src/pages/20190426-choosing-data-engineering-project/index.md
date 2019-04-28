@@ -95,19 +95,18 @@ The following is a diagram that suggests several tools for each component of a d
 - [High Performance Browser Networking](https://hpbn.co/)
 
 ### Terminology
-
-- [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)
-
-- [Data lake](https://en.wikipedia.org/wiki/Data_lake)
-
 - [What is a Data Pipeline?](http://www.jesse-anderson.com/2018/08/what-is-a-data-pipeline/)
 
 - [Data Science for Startups: Data Pipelines](https://towardsdatascience.com/data-science-for-startups-data-pipelines-786f6746a59a)
 
 - [Data Pipelines Explained by Dremio](https://www.dremio.com/what-is-a-data-pipeline/)
 
+- [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)
+
 - [Data Warehouse Concepts](https://aws.amazon.com/data-warehouse/)
 
 - [What Is Data Warehousing? Types, Definition & Example](https://www.guru99.com/data-warehousing.html)
+
+- [Data lake](https://en.wikipedia.org/wiki/Data_lake)
 
 - [What is a data lake?](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)
