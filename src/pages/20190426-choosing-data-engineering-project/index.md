@@ -30,16 +30,30 @@ Bottom line - wait with the heavyweight tools, they might be needlessly powerful
 </blockquote>
 
 ## Course Progression
-Based on the above, a course can be derived:
+Based on the above, a course outline can be derived:
 
 1. _Manipulation_: Python lazy evaluation (`itertools`, `yield`) and functional programming (`map`, `reduce`, `filter`)
-2. _Collection_: Scrapy, BeautifulSoup
-3. _Consumption_: Pandas, NumPy, SciPy
-4. _Preparation_: shell scripting, jq
-5. _Scaling_: Dask, PySpark
-6. _Instrumentation_: Airflow, Luigi
+2. _Collection_: Scrapy, BeautifulSoup, etc.
+3. _Consumption_: Pandas, NumPy, SciPy, ElasticSearch, etc.
+4. _Preparation_: shell scripting, jq, etc.
+5. _Processing_: Hive, Kafka, Flink, Spark, Dask, etc.
+6. _Instrumentation_: Airflow, Luigi, RabbitMQ, etc.
+7. _Storing_: HDFS, Cassandra, PostgrSQL, MongoDB, etc.
+
+## Choosing Tools
+
+The following is a diagram that suggests several tools for each component of a data pipeline, and this [interactive graphic](http://xyz.insightdataengineering.com/blog/pipeline_map/) provides a longer list of tools.
+
+<img
+    src='https://cdn-images-1.medium.com/max/800/1*fYgpZeC7QpExCyIwbWzQtw.png'
+    alt='Data pipeline tools diagram'
+    />
 
 ## References
+
+### General
+- [Doing Data Science at Twitter](https://medium.com/@rchang/my-two-year-journey-as-a-data-scientist-at-twitter-f0c13298aee6) describes an overview of the data engineering process and career strategies
+
 ### Choosing Project
 - [Ask HN: Simple, beginner friendly ETL / Data Engineering project ideas?](https://news.ycombinator.com/item?id=17781762)
 
@@ -50,6 +64,8 @@ Based on the above, a course can be derived:
 - [A Typical Data Engineering Project — Sharing From Netflix Data Engineering Team](https://medium.com/hasbrain/a-typical-data-engineering-project-sharing-from-netflix-data-engineering-team-cc27878fce55)
 
 ### Choosing Tools
+- [The Data Engineering Ecosystem: An Interactive Map](https://blog.insightdatascience.com/the-data-engineering-ecosystem-an-interactive-map-b682627c2534)
+
 - [Airbnb Airflow vs Apache Nifi [closed]](https://stackoverflow.com/questions/39399065/airbnb-airflow-vs-apache-nifi)
 
 - [“Large data” work flows using pandas](https://stackoverflow.com/questions/14262433/large-data-work-flows-using-pandas?rq=1)
@@ -60,7 +76,7 @@ Based on the above, a course can be derived:
 
 - [workflow scheduler for ETL](https://community.hortonworks.com/questions/59329/workflow-scheduler-for-etl.html)
 
-### Testing and Pipeline Debt
+### Pipeline Debt
 
 - [Down with Pipeline debt / Introducing Great Expectations](https://medium.com/@expectgreatdata/down-with-pipeline-debt-introducing-great-expectations-862ddc46782a)
 
@@ -77,3 +93,21 @@ Based on the above, a course can be derived:
 - [The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, 3rd Edition](https://learning.oreilly.com/library/view/the-data-warehouse/9781118530801/)
 
 - [High Performance Browser Networking](https://hpbn.co/)
+
+### Terminology
+
+- [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)
+
+- [Data lake](https://en.wikipedia.org/wiki/Data_lake)
+
+- [What is a Data Pipeline?](http://www.jesse-anderson.com/2018/08/what-is-a-data-pipeline/)
+
+- [Data Science for Startups: Data Pipelines](https://towardsdatascience.com/data-science-for-startups-data-pipelines-786f6746a59a)
+
+- [Data Pipelines Explained by Dremio](https://www.dremio.com/what-is-a-data-pipeline/)
+
+- [Data Warehouse Concepts](https://aws.amazon.com/data-warehouse/)
+
+- [What Is Data Warehousing? Types, Definition & Example](https://www.guru99.com/data-warehousing.html)
+
+- [What is a data lake?](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)
