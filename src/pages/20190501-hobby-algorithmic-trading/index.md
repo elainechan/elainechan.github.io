@@ -64,11 +64,11 @@ Portfolio management, to dramatically oversimplify things, is throwing a bunch o
     > "Private investing. I think there’s an opening for someone to be the Vanguard or AQR of private investing, putting in enough work to make sure we’re getting a fair price and then charging a third of what everyone else charges. I don’t know that world enough, but I think it’s an interesting place. One great way—in any part of the economy—to see where there’s room for innovation: Who’s making monopoly rents?"
 
 ### Data Sources
-[FRED](https://fred.stlouisfed.org/) - economic and market data
-[IEX](https://iextrading.com/developer/docs/#getting-started) - equity, ETF market and fundamental data for 5 years
-[AlphaVantage](https://www.alphavantage.co/documentation/) - (historical and real-time) equities, currencies, cryptocurrencies, sectors, indicators
-[EDGAR](https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm) - company fundamental data
-[Quandl](https://docs.quandl.com/) - (freemium) all data
+- [FRED](https://fred.stlouisfed.org/) - economic and market data
+- [IEX](https://iextrading.com/developer/docs/#getting-started) - equity, ETF market and fundamental data for 5 years
+- [AlphaVantage](https://www.alphavantage.co/documentation/) - (historical and real-time) equities, currencies, cryptocurrencies, sectors, indicators
+- [EDGAR](https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm) - company fundamental data
+- [Quandl](https://docs.quandl.com/) - (freemium) all data
 
 ### Tools
 - [Dash Financial](https://www.dashfinancial.com/platform) for trade executions
