@@ -3,7 +3,7 @@ path: '/choosing-data-engineering-project'
 date: '2019-04-26'
 title: 'Choosing a Data Engineering Project'
 tags: ['data engineering']
-excerpt: 'Strategies for choosing a project to learn data engineering.'
+excerpt: 'Wanna put Kafka and Airflow on your resume?'
 ---
 Wanna put Kafka and Airflow on your resume but don't know where to start? Let's find a way.
 

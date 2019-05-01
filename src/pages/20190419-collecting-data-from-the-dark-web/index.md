@@ -3,7 +3,7 @@ path: '/collecting-data-from-the-dark-web'
 date: '2019-04-19'
 title: 'Collecting Data From the Dark Web'
 tags: ['cybersecurity', 'threat intelligence', 'information retrieval', 'natural language processing']
-excerpt: 'A glimpse of some data collection techniques for threat intelligence analysis.'
+excerpt: 'Some data collection techniques for threat intelligence analysis.'
 ---
 In light of special counsel Robert Mueller's [report](https://www.nytimes.com/interactive/2019/04/18/us/politics/mueller-report-document.html) on a Russian campaign to sabotage the 2016 presidential election, cybersecurity has moved into the spotlight. Cybersecurity is a broad and rich field that has spawned professions such as threat intelligence, a cross-functional discipline that encompasses cybersecurity and intelligence. 
 
