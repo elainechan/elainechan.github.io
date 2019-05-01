@@ -71,8 +71,6 @@ Portfolio management, to dramatically oversimplify things, is throwing a bunch o
 - [Quandl](https://docs.quandl.com/) - (freemium) all data
 
 ### Tools
-- [Dash Financial](https://www.dashfinancial.com/platform) for trade executions
-- [thinkorswim](https://platform.thinkorswim.com/platform/index.html#!/innovation) software for options trading
 - [Zipline](https://www.zipline.io/) - backtesting
 - [9 Great Tools for Algo Trading](https://hackernoon.com/9-great-tools-for-algo-trading-e0938a6856cd)
 
