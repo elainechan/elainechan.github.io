@@ -3,7 +3,7 @@ path: '/lazy-evaluation-python'
 date: '2019-04-27'
 title: 'Lazy Evaluation in Python'
 tags: ['python', 'lazy evaluation', 'generator']
-excerpt: 'A look at lazy evaluation in Python.'
+excerpt: 'First step towards data engineering.'
 ---
 Lazy evaluation is one of the first steps in [learning data engineering](https://elainechan.nyc/choosing-data-engineering-project). According to [Wikipedia](https://en.wikipedia.org/wiki/Lazy_evaluation), lazy evaluation is a strategy which delays the evaluation of an expression until its value is needed, while avoiding repeated evaluations. The concept was initially introduced for lambda calculus and later adopted for programming languages.
 
