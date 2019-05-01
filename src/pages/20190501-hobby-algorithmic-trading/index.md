@@ -8,7 +8,7 @@ excerpt: 'Looking for a stimulating side hustle?'
 Wanna be a quant but don't have a PhD? Looking for a stimulating side hustle? Let's become a hobby algorithmic trader.
 
 ## General Observations
-- Everyone run towards the same thing, at the same time.
+- Everyone runs towards the same thing, at the same time.
 - When something is perceived as unavailable or is expected to become unavailable, people want it more and/or are willing to pay more for it.
 - Liquidity has always run away in a crisis (and probably will again).
 - Big data and the application of machine learning is an arms race.
