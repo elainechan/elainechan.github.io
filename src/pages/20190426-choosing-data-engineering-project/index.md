@@ -48,6 +48,8 @@ The following is a diagram that suggests several tools for each component of a d
     src='https://cdn-images-1.medium.com/max/800/1*fYgpZeC7QpExCyIwbWzQtw.png'
     alt='Data pipeline tools diagram'
     />
+<br />
+<span style='font-size: 0.5em'>Image: Insight Fellows Program</span>
 
 ## References
 
