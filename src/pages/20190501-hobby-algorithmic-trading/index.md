@@ -23,6 +23,7 @@ Some funny quotes to brighten the day.
 - In theory, there is no difference between theory and practice; in practice, there is. (Commonly attributed to Yogi Berra)
 - Be greedy when others are fearful and fearful when others are greedy. (Commonly attributed to Warren Buffett)
 - The trend is your friend (until it ends).
+- Buy on the rumor, sell on the news.
 - Bulls make money, bears make money but pigs get slaughtered.
 
 ## Rules

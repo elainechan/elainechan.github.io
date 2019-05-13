@@ -26,7 +26,6 @@ export default function AboutPage(props) {
           alignItems: 'center',
         }}>
           <a href="https://github.com/elainechan">GitHub</a>
-          <a href="https://www.linkedin.com/in/chanelaine/">LinkedIn</a>
         </div>
 
       </div>
