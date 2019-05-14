@@ -10,7 +10,7 @@ export default function AboutPage(props) {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          fontFamily: 'avenir'
+          fontFamily: 'helvetica'
       }}>
         <h2>
           About

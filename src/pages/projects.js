@@ -9,7 +9,7 @@ export default function ProjectsPage(props) {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          fontFamily: 'avenir'
+          fontFamily: 'helvetica'
       }}>
         <h2>
         Projects

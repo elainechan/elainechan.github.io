@@ -6,7 +6,7 @@ const SingleTagTemplate = (props) => {
   const { posts, tag } = props.pageContext
 
   return (
-    <div style={{ fontFamily: 'avenir' }}>
+    <div style={{ fontFamily: 'helvetica' }}>
       <div>
         <h2>
         Posts about {`${tag}`}

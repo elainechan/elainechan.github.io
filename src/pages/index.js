@@ -13,7 +13,7 @@ const Layout = ({data}) => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            fontFamily: 'avenir'
+            fontFamily: 'helvetica'
         }}>
         <div>
           {edges.map(edge => {

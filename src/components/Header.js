@@ -7,7 +7,7 @@ const TitleAndDescription = ({data}) => {
 
   return (
     <div style={{
-      fontFamily: 'avenir'
+      fontFamily: 'helvetica'
     }}>
       <div>
         <ul style={{

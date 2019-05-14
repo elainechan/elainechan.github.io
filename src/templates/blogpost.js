@@ -17,7 +17,7 @@ export default function BlogpostTemplate(props) {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          fontFamily: 'avenir'
+          fontFamily: 'helvetica'
         }}
       >
         <h1>{frontmatter.title}</h1>
@@ -51,7 +51,7 @@ export default function BlogpostTemplate(props) {
         <div 
           className='next-prev'
           style={{
-            fontFamily: 'avenir',
+            fontFamily: 'helvetica',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center'
