@@ -11,7 +11,7 @@ const AllTagsTemplate = (props) => {
       <Header />
       <div
         style={{
-          fontFamily: 'avenir',
+          fontFamily: 'helvetica',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
