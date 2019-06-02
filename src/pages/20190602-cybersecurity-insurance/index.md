@@ -24,6 +24,27 @@ Alternatively:
 
 Either way, this concerns anyone who uses any of these spaces, i.e. all human beings.
 
+## Challenges of Insuring Cybersecurity Risks
+A variant of Murphy's Law (_"anything that can go wrong will go wrong"_), Finagle's Law states that _"anything that can go wrong, will —-- at the worst possible moment."_ Insurance is often unhelpful in moments like this.
+
+Catastrophic events such as terrorism, natural disasters, and acts of war are often not covered by most commercial insurance plans. For similar reasons, insurance policies by default do not cover cyber incidents. To address an unmet need, cybersecurity insurance was born:
+
+> _A cyber insurance policy, also referred to as cyber risk insurance or cyber liability insurance coverage (CLIC), is designed to help an organization mitigate risk exposure by offsetting costs involved with recovery after a cyber-related security breach or similar event. With its roots in errors and omissions (E&O) insurance, cyber insurance began catching on in 2005, with the total value of premiums forecasted to reach $7.5 billion by 2020. According to PwC, about one-third of U.S. companies currently purchase some type of cyber insurance._
+-- [What is cyber insurance and why you need it](https://www.cio.com/article/3065655/what-is-cyber-insurance-and-why-you-need-it.html)
+
+> _Cybersecurity insurance is designed to mitigate losses from a variety of cyber incidents, including data breaches, business interruption, and network damage._
+-- [Department of Homeland Security](https://www.dhs.gov/cisa/cybersecurity-insurance)
+
+While uncertainty is the business of insurance, most of the problems insurers deal with are "known unknowns," and cybersecurity risk is an "unknown unknown."
+
+> _The primary problem for cyber insurers is that there is no established historical corpus of understanding for cybersecurity risk in the same way as there is for, say, motor or life insurance. Insurance works best with static risk, but cyber risk is intrinsically dynamic -- both the target (the IT infrastructure) and the attack methodology (attackers, tools, techniques, exploits and motivation) are continuously changing. Neither the insurer nor the insured currently understands how cybersecurity can be insured._
+-- [New Cyber Insurance Firm Unites Insurance With Cyber Intelligence](https://www.securityweek.com/new-cyber-insurance-firm-unites-insurance-cyber-intelligence)
+
+It is not only hard to quantify abstract losses (data loss), but concrete losses (physical damage and bodily harm) are also hard to quantify in the context of cybersecurity attacks.
+
+> _Few cybersecurity insurance policies, however, provide businesses with coverage for an area of growing private and public concern: the physical damage and bodily harm that could result from a successful cyber attack against critical infrastructure._
+-- [Department of Homeland Security](https://www.dhs.gov/cisa/cybersecurity-insurance)
+
 ## Critical Infrastructure
 State level attacks on critical infrastructure, once the plot devices of science fiction, are now conceivable by an average person who reads the news. It would not be surprising that the next world war could be a cyber war; the attacks would be performed by people sitting in front of computers, but the damage would occur in the physical world on a large scale. Enterprise level attacks are already happening in the abstract world of critical data, although attacks in the physical world of critical infrastructure is also conceivable.
 
