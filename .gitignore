@@ -70,3 +70,6 @@ yarn-error.log
 
 # Posts not ready for publication
 drafts/
+
+# Text editor
+.vscode/
