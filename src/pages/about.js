@@ -17,7 +17,11 @@ export default function AboutPage(props) {
         </h2>
         <div>
           <p>
-          Software engineer based in New York.
+            Software engineer based in New York.
+          </p>
+          <br />
+          <p>
+            Candidate of Chartered Financial Analyst (CFA) program.
           </p>
         </div>
         <div style={{
@@ -25,6 +29,7 @@ export default function AboutPage(props) {
           flexDirection: 'column',
           alignItems: 'center',
         }}>
+          <a href="https://www.linkedin.com/in/chanelaine/">LinkedIn</a>
           <a href="https://github.com/elainechan">GitHub</a>
         </div>
 
