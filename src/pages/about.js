@@ -17,11 +17,7 @@ export default function AboutPage(props) {
         </h2>
         <div>
           <p>
-            Software engineer based in New York.
-          </p>
-          <br />
-          <p>
-            Candidate of Chartered Financial Analyst (CFA) program.
+            Software engineer and Chartered Financial Analyst (CFA) program candidate based in New York.
           </p>
         </div>
         <div style={{
